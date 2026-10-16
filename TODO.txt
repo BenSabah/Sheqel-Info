@@ -1,4 +1,0 @@
-TO FIX
-go over all HTML files and fix ../site_images/background.jpg to background.jpg, BackButton.jpg to backButton.jpg, Logo.jpg to logo.jpg, and any other image files
-remove all "Mirrored from..." comments
-combine all styling into single CSS file, it already exists, update it, remove overlapping styling from the HTMLs, I don't want to see "style=" in the HTML files
