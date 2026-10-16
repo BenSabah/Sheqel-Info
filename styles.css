@@ -1,0 +1,55 @@
+/* ===== SHARED SHEQEL-INFO STYLESHEET ===== */
+
+/* --- Global --- */
+body {
+    background-color: #FFFFCC;
+    background-image: url('site_images/background.jpg');
+    background-attachment: fixed;
+    margin-top: 2px;
+}
+a { color: #0000FF; }
+a:visited { color: #800080; }
+
+/* --- Utility: margin reset for paragraphs --- */
+.p-reset {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* --- Utility: padding for image cells --- */
+.td-padded {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+/* --- Font sizes --- */
+.fs-xsmall { font-size: x-small; }
+.fs-small { font-size: small; }
+.fs-medium { font-size: medium; }
+.fs-11pt { font-size: 11pt; }
+
+/* --- Backgrounds --- */
+.bg-eceeff { background-color: #ECEEFF; }
+.bg-eeecff { background-color: #EEECFF; }
+
+/* --- Text alignment --- */
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+
+/* --- Font weight --- */
+.fw-400 { font-weight: 400; }
+.fw-700 { font-weight: 700; }
+
+/* --- Link styles --- */
+.link-bold { text-decoration: none; font-weight: 700; }
+
+/* --- Combined common patterns --- */
+.p-reset-center {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+.fs-11pt-bold {
+    font-size: 11pt;
+    font-weight: 700;
+}
